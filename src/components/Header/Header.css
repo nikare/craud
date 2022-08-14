@@ -1,0 +1,30 @@
+input {
+  background: none;
+  font-weight: inherit;
+  padding: 0;
+  border: none;
+  text-align: right;
+  outline: 1px dashed #001e26;
+  border-radius: 3px;
+  line-height: inherit;
+}
+
+.deposit {
+  width: 85px;
+}
+
+.percent,
+.period {
+  width: 30px;
+}
+
+.period-text {
+  display: inline-block;
+  text-align: left;
+  width: 65px;
+  margin-left: 5px;
+}
+
+.link {
+  color: inherit;
+}

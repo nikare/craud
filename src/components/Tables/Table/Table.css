@@ -1,0 +1,31 @@
+.pure-table {
+  width: 100%;
+}
+
+.pure-table th {
+  font-size: 12px;
+}
+
+.pure-table td {
+  border: 1px solid silver;
+}
+
+.pure-table thead,
+.pure-table tfoot {
+  background: #222;
+  color: white;
+}
+
+.pure-table tfoot td {
+  text-align: right;
+  border-right: none;
+  border-left: none;
+}
+
+.pure-table caption {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  color: white;
+  background: #222;
+}
