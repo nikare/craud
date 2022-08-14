@@ -17,7 +17,7 @@ export interface ITableRow {
   moneyBack: number;
   deposits: number;
   capitaleAfter: number;
-  totalAdding: number;
-  totalMoneyBack: number;
-  profit: number;
+  totalAdding?: number;
+  totalMoneyBack?: number;
+  profit?: number;
 }

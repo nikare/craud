@@ -15,9 +15,9 @@ export const Table = (props: IProps) => {
   }
 
   const totalCapitale = Math.round(table[table.length - 1].capitaleAfter);
-  const totalAdding = Math.round(table[table.length - 1].totalAdding);
-  const totalMoneyBack = Math.round(table[table.length - 1].totalMoneyBack);
-  const profit = Math.round(table[table.length - 1].profit);
+  const totalAdding = Math.round(table[table.length - 1].totalAdding || 0);
+  const totalMoneyBack = Math.round(table[table.length - 1].totalMoneyBack || 0);
+  const profit = Math.round(table[table.length - 1].profit || 0);
 
   return (
     <table className="pure-table">
@@ -41,7 +41,7 @@ export const Table = (props: IProps) => {
         {table.map((data, index) => {
           return (
             <tr key={index}>
-              <td>{data.order || index}</td>
+              <td>{data.order}</td>
               <td>{MONTHS[index]}</td>
               <td>{Math.round(data.capitaleBefore).toLocaleString('ru-RU')} руб.</td>
               <td>{Math.round(data.adding).toLocaleString('ru-RU')} руб.</td>

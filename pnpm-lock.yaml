@@ -1,11 +1,13 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@babel/core': ^7.18.10
   '@fontsource/open-sans': ^4.5.11
   '@reduxjs/toolkit': ^1.8.4
   '@types/node': ^16.11.48
   '@types/react': ^18.0.17
   '@types/react-dom': ^18.0.6
+  babel-preset-react-app: ^10.0.1
   purecss: ^2.1.0
   react: ^18.2.0
   react-dom: ^18.2.0
@@ -22,9 +24,11 @@ dependencies:
   react-redux: 8.0.2_ps4ywwwjjeajezffxxirqk36qa
 
 devDependencies:
+  '@babel/core': 7.18.10
   '@types/node': 16.11.48
   '@types/react': 18.0.17
   '@types/react-dom': 18.0.6
+  babel-preset-react-app: 10.0.1
   react-scripts: 5.0.1_oe3ol62eqh6iphsltbumhvug5m
   typescript: 4.7.4
 
