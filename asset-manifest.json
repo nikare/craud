@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/craud/static/css/main.bd747450.css",
-    "main.js": "/craud/static/js/main.6837378f.js",
+    "main.js": "/craud/static/js/main.1bdc86df.js",
     "static/media/open-sans-all-400-normal.woff": "/craud/static/media/open-sans-all-400-normal.3bc4108fa8f9a72e6ea5.woff",
     "static/media/open-sans-all-700-normal.woff": "/craud/static/media/open-sans-all-700-normal.58d6cee51ed48e9d6626.woff",
     "static/media/open-sans-cyrillic-ext-400-normal.woff2": "/craud/static/media/open-sans-cyrillic-ext-400-normal.acfea1d2352591b09c46.woff2",
@@ -22,10 +22,10 @@
     "static/media/open-sans-greek-ext-700-normal.woff2": "/craud/static/media/open-sans-greek-ext-700-normal.62f39cc9ee19d2e0df1e.woff2",
     "index.html": "/craud/index.html",
     "main.bd747450.css.map": "/craud/static/css/main.bd747450.css.map",
-    "main.6837378f.js.map": "/craud/static/js/main.6837378f.js.map"
+    "main.1bdc86df.js.map": "/craud/static/js/main.1bdc86df.js.map"
   },
   "entrypoints": [
     "static/css/main.bd747450.css",
-    "static/js/main.6837378f.js"
+    "static/js/main.1bdc86df.js"
   ]
 }
