@@ -24,3 +24,8 @@
   color: white;
   background: #222;
 }
+
+.pure-table th,
+.pure-table td {
+  white-space: nowrap;
+}

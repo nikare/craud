@@ -32,7 +32,6 @@ export const Header = () => {
   return (
     <div className="header">
       {/* <StockInput /> */}
-      <h1>Капитализация</h1>
       <h2>
         <span>Ежемесячное инвестирование </span>
         <input

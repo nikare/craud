@@ -5,7 +5,7 @@
   "scripts": {
     "start": "PORT=1234 react-scripts start",
     "build": "react-scripts build",
-    "deploy": "rimraf build && pnpm build && gh-pages -d build"
+    "deploy": "rimraf build && PUBLIC_URL=/craud/ pnpm build && gh-pages -d build"
   },
   "dependencies": {
     "@fontsource/open-sans": "^4.5.11",
