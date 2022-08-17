@@ -1,12 +1,13 @@
 input {
   background: none;
   font-weight: inherit;
+  text-align: right;
+  line-height: inherit;
+  color: inherit;
   padding: 0;
   border: none;
-  text-align: right;
-  outline: 1px dashed #001e26;
   border-radius: 3px;
-  line-height: inherit;
+  outline: 1px dashed #001e26;
 }
 
 .deposit {

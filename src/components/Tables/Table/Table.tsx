@@ -1,5 +1,4 @@
 import { ITableRow } from 'store';
-import { MONTHS } from './constants';
 import './Table.css';
 
 interface IProps {
@@ -25,7 +24,6 @@ export const Table = (props: IProps) => {
       <thead>
         <tr>
           <th>№</th>
-          <th>Месяц</th>
           <th>Капитал на 1-е число месяца</th>
           <th>Внести</th>
           <th>В инвестиции пойдёт</th>
@@ -34,7 +32,7 @@ export const Table = (props: IProps) => {
           <th>Прибыль</th>
           <th>В реинвест</th>
           <th>Вывести</th>
-          <th>Капитал в конце месяца</th>
+          <th>Капитал на последнее число месяца</th>
         </tr>
       </thead>
       <tbody>
@@ -42,7 +40,6 @@ export const Table = (props: IProps) => {
           return (
             <tr key={index}>
               <td>{data.order}</td>
-              <td>{MONTHS[index]}</td>
               <td>{Math.round(data.capitaleBefore).toLocaleString('ru-RU')} руб.</td>
               <td>{Math.round(data.adding).toLocaleString('ru-RU')} руб.</td>
               <td>{Math.round(data.currentDeposit).toLocaleString('ru-RU')} руб.</td>

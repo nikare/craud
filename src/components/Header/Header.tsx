@@ -1,6 +1,7 @@
 import { useDispatch } from 'react-redux';
 
 import { useLocalStorage, usePluralAge, useStore } from 'hooks';
+// import { StockInput } from './StockInput';
 import { actions } from 'store';
 import './Header.css';
 
@@ -30,6 +31,7 @@ export const Header = () => {
 
   return (
     <div className="header">
+      {/* <StockInput /> */}
       <h1>Капитализация</h1>
       <h2>
         <span>Ежемесячное инвестирование </span>
@@ -42,13 +44,7 @@ export const Header = () => {
           onFocus={({ target }) => target.select()}
         />
         <span> руб. в </span>
-        <a
-          className="link"
-          href="https://jetlend.ru/investor/?utm_source=site&utm_medium=referral&utm_content=I1027019"
-          target="_blank"
-          rel="noreferrer">
-          Jetlend
-        </a>
+        краудлендинг
         <span> под </span>
         <input
           className="percent"

@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "start": "PORT=1234 react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@fontsource/open-sans": "^4.5.11",

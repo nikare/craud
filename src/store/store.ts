@@ -6,9 +6,9 @@ const data: Partial<IBase> = localData ? JSON.parse(localData) : {};
 const { deposit, percent, period } = data;
 
 const initialState: IBase & { tables: ITableRow[][] } = {
-  deposit: deposit || 100000,
-  percent: percent || 15,
-  period: period || 5,
+  deposit: deposit || 200000,
+  percent: percent || 18,
+  period: period || 16,
   capitale: 0,
   passiveIncome: 0,
   tables: [],
